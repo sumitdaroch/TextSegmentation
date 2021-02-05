@@ -30,7 +30,7 @@ class CustomSent2vec(object):
     """
     def __init__(self):
         print "Loading word2vec model"
-        self.model = gensim.models.KeyedVectors.load_word2vec_format('/home/pinkesh.badjatiya/WORD_EMBEDDINGS/word2vec__GoogleNews_100Bwords__300Dvectors__3M_vocab.bin', binary=True)
+        self.model = gensim.models.KeyedVectors.load_word2vec_format('./data/GoogleNews-vectors-negative300.bin', binary=True)
         #self.model = gensim.models.KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)
         #self.model = gensim.models.Word2Vec.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)
         print "Model Loaded!"
