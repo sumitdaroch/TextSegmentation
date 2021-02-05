@@ -1,5 +1,5 @@
 from keras.layers.core import Layer
-from keras import initializations, regularizers, constraints
+from keras import initializers, regularizers, constraints
 from keras import backend as K
 
 class Attention(Layer):
