@@ -1,0 +1,8 @@
+tabulate
+numpy
+keras==1.2.2
+sklearn
+gensim
+nltk
+theano
+h5py
